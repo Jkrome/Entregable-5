@@ -1,0 +1,115 @@
+.pokecard {
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(39, 15, 61, 0.404);
+    text-transform: capitalize;
+    transition: transform 0.5s ease-in-out;
+}
+.pokecard:hover {
+    transform: scale(1.1);
+}
+.pokecard_back {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+.pokecard_img {
+    position: absolute;
+    width: 65%;
+}
+.pokecard_name {
+    padding-top: 50px;
+}
+.pokecard_types {
+    margin: 5px 0;
+    display: flex;
+}
+.pokecard_hr {
+    width: 90%;
+    margin: 10px 0;
+}
+.pokecard_stats {
+    padding-bottom: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+.pokecard_stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slot2::before {    
+    content: '/';
+    margin: 0 5px;
+}
+/* ------- Colores ------- */
+.normal {
+    background: linear-gradient(to bottom, #79545c, #af6675);
+}
+.fighting {
+    background: linear-gradient(to bottom, #860823, #e92560);
+}
+.flying {
+    background: linear-gradient(to bottom, #3ed8d8, #2549e9);
+}
+.poison {
+    background: linear-gradient(to bottom, #7c0bc7, #1fbe54);
+}
+.ground {
+    background: linear-gradient(to bottom, #9c591b, #b18656);
+}
+.rock{
+    background: linear-gradient(to bottom, #757575, #c0be63);
+}
+.bug {
+    background: linear-gradient(to bottom, #1c8f55, #e46aad);
+}
+.ghost {
+    background: linear-gradient(to bottom, #c4c4c4, #6e4c81);
+}
+.steel {
+    background: linear-gradient(to bottom, #7a7a7a, #213642);
+}
+.fire {
+    background: linear-gradient(to bottom, #ff7403, #ce1717);
+}
+.water {
+    background: linear-gradient(to bottom, #1bbdd3, #0b629c);
+}
+.grass {
+    background: linear-gradient(to bottom, #7fc7c5, #c6e0a0);
+}
+.electric {
+    background: linear-gradient(to bottom, #e1fa53, #f8ffcf);
+}
+.psychic {
+    background: linear-gradient(to bottom, #fa53d0, #6e078d7c);
+}
+.ice {
+    background: linear-gradient(to bottom, #918cdb, #0021b6);
+}
+.dragon {
+    background: linear-gradient(to bottom, #e20000, #078d4a);
+}
+.dark {
+    background: linear-gradient(to bottom, #000000, #fffafa);
+}
+.fairy {
+    background: linear-gradient(to bottom, #7700ffb9, #f8c1ff);
+} 
+.stellar {
+    background: linear-gradient(to bottom, #182094, #d5f16f);
+}
+.unknown {
+    background: linear-gradient(to bottom, #000000, #02020200);
+}
+

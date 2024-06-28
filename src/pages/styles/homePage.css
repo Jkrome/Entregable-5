@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    gap: 10px;
+}
+.home_header {
+    color: red;
+    margin-top: 20px;
+}
+.home_text {
+    font-weight: 500;
+}
+.home_form {
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.home_button,
+.home_input {
+    height: 100%;
+}
+.home_button {
+    color: white;
+    background-color: red;
+    width: 70px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.home_input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2),
+                0px -3px 5px rgba(0, 0, 0, 0.2),
+                0px 3px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+

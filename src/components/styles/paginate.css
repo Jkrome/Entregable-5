@@ -1,0 +1,20 @@
+.pag {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.pag button {
+    display: flex;
+    padding: 5px;
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+}
+.pag button:hover {
+    transform:  scale(1.1);
+    filter: brightness(1.3);
+}

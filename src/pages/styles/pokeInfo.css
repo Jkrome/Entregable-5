@@ -1,0 +1,30 @@
+.pokeinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pokeinfo_img { display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokeinfo_stats-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pokeinfo_stats {
+    padding: 30px;
+}
+.pokeinfo_stats-item span:nth-child(2){
+    justify-self: end;
+}
+.outbar {
+    height: 20px;
+    width: 100%;
+    border: 1px solid;
+    grid-column: span 2;
+    border-radius: 5px;
+}
+.inbar {
+    background: linear-gradient(to right, rgb(228, 238, 88), rgb(201, 164, 0));
+    height: 100%;
+}
